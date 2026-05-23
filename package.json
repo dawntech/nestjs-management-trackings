@@ -4,6 +4,11 @@
   "description": "",
   "author": "Levindo Neto",
   "license": "MIT",
+  "engines": {
+    "node": "24",
+    "npm": ">=11.10.0"
+  },
+  "packageManager": "npm@11.10.0",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
